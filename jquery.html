@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JQuery</title>
+    </head>
+    <body>
+        <button id="controldiv">Start Animation</button>
+        <button id="controldivStop">Stop Animation</button>
+        <div id="animateDiv" style="background-color: rebeccapurple; height: 50px;width: 50px;display: none;"></div>
+        <script src="Vendor/Jquery/jquery.js"></script>
+        <script type="text/javascript">
+            //$("selector").click(function()){}
+            //console.log($("p").text());
+            /*$('p').text('Insert it into paragraph');
+            $('#first_element').text('Inserted into first element');
+            $('.first_class').text('Inserted into first Class');*/
+            /*$('button').mouseenter(function(){
+                alert('Button Clicked')
+            })*/
+            /*$('#input').focus(function(){
+                alert('Text box clicked')
+            })*/
+            /*$("#controldiv").click(function(){
+                //alert('value is changed')
+                $('#slavediv').toggle()
+            })*/
+            /*$('#controldiv').click(function(){
+                $("#animateDiv").animate({
+                    height:'250px',
+                    width:'250px'
+                },5000)
+            })
+            $('#controldivStop').click(function(){
+                $("#animateDiv").stop()
+            })*/
+            $("#controldiv").click(function(){
+                $("#animateDiv").fadeIn(2000).css("background-color","red").fadeOut(2000)
+            })
+        </script>
+    </body>
+</html>

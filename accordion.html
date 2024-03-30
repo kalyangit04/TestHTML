@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Accordion</title>
+        <link rel="stylesheet" href="Vendor/Bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">    
+    </head>
+    <body>
+        <p><a href="Bootstrap.html" style="text-decoration: none;">Go Back</a></p>
+        <br>
+        <h5>Simple Accordian</h5>
+        <div class="accordion" id="simpleAccordionOne">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="simpleAccordionHeaderOne">
+                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#simpleAccordionCollapseOne">
+                        What is an accoridan?
+                    </button>
+                </h2>
+                <div id="simpleAccordionCollapseOne" class="accordion-collapse collapse" data-bs-parent="simpleAccordionOne">
+                    <div class="card-body">
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, deleniti eveniet. Non minima quos qui cum, inventore sequi esse reprehenderit amet nisi eum asperiores labore neque reiciendis harum explicabo et?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="simpleAccordionHeaderTwo">
+                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#simpleAccordionCollapseTwo">
+                        What is Accoridan 2?
+                    </button>
+                </h2>
+                <div id="simpleAccordionCollapseTwo" class="accordion-collapse collapse" data-bs-parent="#simpleAccordionOne">
+                    <div class="card-body">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe praesentium iste delectus mollitia laboriosam dicta nihil, facilis ducimus repellat, labore, incidunt blanditiis. Nesciunt doloribus laborum quibusdam. Explicabo laborum ipsum quo!                        
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <h5>Simple Accordian with Depended openings</h5>
+        <div class="container">
+            <div class="accordion accordion-flush" id="simpleAccordionTwo">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="simpleAccordionTwoHeaderOne">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#simpleAccordionTwoCollapseOne">
+                            What is an accoridan?
+                        </button>
+                    </h2>
+                    <div id="simpleAccordionTwoCollapseOne" class="accordion-collapse collapse" data-bs-parent="#simpleAccordionTwoHeaderOne">
+                        <div class="card-body">
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, deleniti eveniet. Non minima quos qui cum, inventore sequi esse reprehenderit amet nisi eum asperiores labore neque reiciendis harum explicabo et?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="simpleAccordionTwoHeaderTwo">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#simpleAccordionTwoCollapseTwo">
+                            What is Accoridan 2?
+                        </button>
+                    </h2>
+                    <div id="simpleAccordionTwoCollapseTwo" class="accordion-collapse collapse" data-bs-parent="#simpleAccordionTwo">
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe praesentium iste delectus mollitia laboriosam dicta nihil, facilis ducimus repellat, labore, incidunt blanditiis. Nesciunt doloribus laborum quibusdam. Explicabo laborum ipsum quo!                        
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="Vendor/Bootstrap/js/bootstrap.js"></script>
+    </body>
+</html>

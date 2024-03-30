@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Nav Bar
+        </title>
+        <link rel="stylesheet" href="Vendor/Bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">    
+    </head>
+    <body>
+        <p><a href="Bootstrap.html" style="text-decoration: none;">Go Back</a></p>
+        <br>
+        <h3>Basic Navbar</h3>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">LOGO</a>
+                <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <a href="#" class="nav-item nav-link ">About Us</a>
+                        <a href="#" class="nav-item nav-link ">Contact Us</a>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                        <a href="#" class="nav-item nav-link">Student Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <hr>
+        <br>
+        <h3>Basic Navbar with Logo</h3>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="Assests/gmail.png" height="35" alt="brand logo">
+                </a>
+                <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <a href="#" class="nav-item nav-link ">About Us</a>
+                        <a href="#" class="nav-item nav-link ">Contact Us</a>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                        <a href="#" class="nav-item nav-link">Student Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <hr>
+        <br>
+        <h3>Basic Navbar with Logo, Dropdown</h3>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="Assests/gmail.png" height="35" alt="brand logo">
+                </a>
+                <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                                About Us
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item ">Company</a>
+                                <a href="#" class="dropdown-item ">Team</a>
+                            </div>
+                        </div>
+                        <a href="#" class="nav-item nav-link ">Contact Us</a>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                        <a href="#" class="nav-item nav-link">Student Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <hr>
+        <br>
+        <h3>Basic Navbar with Logo,dropdown and search</h3>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="Assests/gmail.png" height="35" alt="brand logo">
+                </a>
+                <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                                About Us
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item ">Company</a>
+                                <a href="#" class="dropdown-item ">Team</a>
+                            </div>
+                        </div>
+                        <a href="#" class="nav-item nav-link ">Contact Us</a>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                        <form class="d-flex">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="search content">
+                                <button type="button" class="btn btn-dark"><i class="bi bi-search"></i></button>
+                            </div>
+                        </form>
+                        <a href="#" class="nav-item nav-link">Student Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="Vendor/Bootstrap/js/bootstrap.js"></script>
+    </body>
+</html>

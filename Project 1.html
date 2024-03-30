@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Project 1 | Single Page Website</title>
+        <link rel="stylesheet" href="Vendor/Bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css" integrity="sha512-oAvZuuYVzkcTc2dH5z1ZJup5OmSQ000qlfRvuoTTiyTBjwX1faoyearj8KdMq0LgsBTHMrRuMek7s+CxF8yE+w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            .color-teal{
+                color: teal;
+            }
+            .icon-lg{
+                font-size: 50px;
+            }
+            .icon-sm{
+                font-size: 25px;
+            }
+            .remove-text-decoration{
+                text-decoration: none;
+            }
+            .remove-bullets{
+                list-style: none;
+            }
+            .color-blue{
+                color: rgb(54, 54, 242);
+            }
+            .color-pink{
+                color: rgb(230, 93, 116);
+            }
+            .color-red{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-black bg-black">
+                <div class="container-fluid">
+                    <a href="https://over.network/" class="navbar-brand " style="margin-left: 35px; margin-top: 12px;">
+                        <p class="display-7 text-white">Over<b>Protocol</b></p>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                        <i class="bi bi-list"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar1">
+                        <div class="navbar-nav ms-auto">
+                            <a href="#" class="nav-item nav-link active text-white">Home</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-item nav-link dropdown-toggle text-white" data-bs-toggle="dropdown">About Us</a>
+                                <div class="dropdown-menu">
+                                   <a href="#" class="dropdown-item ">Company</a>
+                                   <a href="#" class="dropdown-item ">Team</a>
+                                </div>
+                            </div>
+                            <a href="#" class="nav-item nav-link text-white">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="Carousel 1" style="max-height: 100vh;">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="Carousel 2" style="max-height: 100vh;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="Carousel 3" style="max-height: 100vh;">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </header>
+        <main class="m-4">
+            <section class="container m-3" id="about-us">
+                <h6 class="display-5 text-center">About Us</h6>
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="container">
+                            <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="About us">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <p class="text-black-50">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quae adipisci rerum necessitatibus neque dolorum, veniam earum obcaecati aspernatur nihil explicabo delectus architecto distinctio ut eos minus unde incidunt eius!
+                        </p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati deleniti unde facere placeat consectetur in, corporis debitis autem? Temporibus, dicta? Quibusdam magnam velit ratione explicabo earum nihil rem dolorum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda labore officia obcaecati, et sit iusto, illo quae quisquam dolorem blanditiis nam at sequi molestias! Nesciunt cupiditate repellendus nostrum rem facilis Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eligendi, animi reiciendis quidem aut temporibus numquam eius unde cumque nemo! Recusandae hic consequuntur blanditiis inventore voluptatibus voluptate, animi necessitatibus facilis?</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <h6 class="display-6 text-center m-4">What Makes us Unique</h6>
+                    <div class="col-md-4">
+                        <div class="container text-center">
+                            <span class="bi bi-person color-teal icon-lg"></span>
+                            <p>Custom Tailored User options</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4"><div class="container text-center">
+                        <span class="bi bi-shield-shaded color-teal icon-lg"></span>
+                        <p>Privacy First approach</p>
+                    </div></div>
+                    <div class="col-md-4"><div class="container text-center">
+                        <span class="bi bi-list color-teal icon-lg"></span>
+                        <p>Multiple Variations</p>
+                    </div></div>
+                </div>
+            </section>
+            <section id="team" class="container m-3">
+                <h6 class="display-5 text-center">Our Innovative Team</h6>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 d-flex align-item-center justify-content-center">
+                            <div class="card" style="width: 300px;">
+                                <img class="card-img-top" src="https://dummyimage.com/300x300/000/fff&text=Sample+Image">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Team Member 1</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem velit voluptates, asperiores quia consectetur aperiam </p>
+                                    <i class="bi bi-facebook color-blue icon-sm m-2 "></i>
+                                    <i class="bi bi-instagram color-pink icon-sm m-2"></i>
+                                    <i class="bi bi-linkedin color-blue icon-sm m-2"></i>
+                                    <a href="https://youtu.be/uFpDexeZsG8?si=ZdmpEtxzbS6-6NW9"><i class="bi bi-youtube color-red icon-sm m-2 "></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-item-center justify-content-center">
+                            <div class="card" style="width: 300px;">
+                                <img class="card-img-top" src="https://dummyimage.com/300x300/000/fff&text=Sample+Image">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Team Member 2</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem velit voluptates, asperiores quia consectetur aperiam </p>
+                                    <i class="bi bi-facebook color-blue icon-sm m-2 "></i>
+                                    <i class="bi bi-instagram color-pink icon-sm m-2"></i>
+                                    <i class="bi bi-linkedin color-blue icon-sm m-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-item-center justify-content-center">
+                            <div class="card" style="width: 300px;">
+                                <img class="card-img-top" src="https://dummyimage.com/300x300/000/fff&text=Sample+Image">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Team Member 3</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem velit voluptates, asperiores quia consectetur aperiam </p>
+                                    <i class="bi bi-facebook color-blue icon-sm m-2 "></i>
+                                    <i class="bi bi-instagram color-pink icon-sm m-2"></i>
+                                    <i class="bi bi-linkedin color-blue icon-sm m-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="container m-3">
+                <h6 class="display-5 text-center">Reach Us</h6>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="container p-3">
+                            <p class="text-muted text-center fs-3">Here's Our Contact Info</p>
+                            <div class="text-black-s text-center fs-4">Our Email</div>
+                            <div class="text-black-50 text-center fs-5">support@example.com</div>
+                            <div class="text-black-s text-center fs-4">Our Phone Number</div>
+                            <div class="text-black-50 text-center fs-5">+91 58849 49961</div>
+                            <div class="text-black-s text-center fs-4">Our Address</div>
+                            <div class="text-black-50 text-center fs-5">HSR Layout, BN Reddy 500070</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex align-item-center justify-content-center">
+                        <div class="container">
+                            <p class="text-muted text-center fs-3">Write to Us</p>
+                            <div class="container p-3">
+                                <div class="card shadow">
+                                    <div class="card-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="name" class="form-label">Enter your Name</label>
+                                                <input type="text" class="form-control" name="name" id="name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="emailid" class="form-label">Enter your Email</label>
+                                                <input type="email" class="form-control" name="email" id="emailid">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="subject" class="form-label">Enter the Subject</label>
+                                                <input type="text" class="form-control" name="subject" id="subject">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="message" class="form-label">Enter your Message</label>
+                                                <textarea class="form-control" name="message" id="message"></textarea>
+                                            </div>
+                                            <div class="form-group text-center">                                                
+                                                <input  type="submit" class="btn btn-outline-dark" value="Send Message">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="container m-4">
+                            <img src="Assests/over.png" height="45px" class="bg-white">
+                            <div>
+                                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus necessitatibus consectetur ex tempora sed! In numquam molestias iusto nostrum, fugiat dolorum quas, nemo quam, quis vero deserunt dolor quaerat atque.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="container m-4">
+                            <p class="text-white fs-5">Quick Links</p>
+                            <ul class="remove-bullets remove-text-decoration">
+                                <li><a href="#" class="remove-text-decoration text-white">About Us</a></li>
+                                <li><a href="#" class="remove-text-decoration text-white">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-white text-center">
+                    <p>All rights reserved &copy 2022,<a href="https://over.network/" style="text-decoration: none;">Over Protocol</a></p>
+                </div>
+            </div>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="Vendor/Bootstrap/js/bootstrap.js"></script>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+p{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 45px;
+    font-weight: 100;
+
+    color: blue;
+
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    line-height: 100px;
+}

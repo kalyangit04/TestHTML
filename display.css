@@ -1,0 +1,13 @@
+.flex > div{
+    padding: 25px;
+    border: 1px solid black;
+    margin: 5px;
+    width: 50px;
+    background-color: bisque;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}

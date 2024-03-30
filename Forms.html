@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML forms</title>
+    </head>
+    <body>
+        <form method="post" action="">
+            <div>
+                <label>First name</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Enter your firstname">
+            </div>
+            <div>
+                <label>Last name</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Enter your lastname">   
+            </div>
+            <div>
+                <label>Gender</label>
+                <input type="radio" id="gender1" name="gender" value="male">male
+                <input type="radio" id="gender2" name="gender" value="female">Female
+                <input type="radio" id="gender3" name="gender" value="na">Rather not say
+            </div>
+            <div>
+                <label>DOB</label>
+                <input type="datetime-local" name="dob" id="dob" > 
+            </div>
+            <div>
+                <label>Address</label>
+                <textarea name="address" placeholder="Enter your address"></textarea>
+            </div>
+            <div>
+                <label>Hobbies</label>
+                <input type="checkbox" name="hobbies" id="hobbies1" value="reading">reading
+                <input type="checkbox" name="hobbies" id="hobbies1" value="playing">playing
+            </div>
+            <div>
+                <label>Review panel</label>
+                <select name="review" id="review-box">
+                <option>Select a review</option>
+                <optgroup>
+                    <option>Excellent</option>
+                    <option value="Good-performance">Good</option>
+                    <option>Nice</option>
+                </optgroup>
+            </select>
+            </div>
+            <div>
+                <label>Profile Picture</label>
+                <input type="file" name="User profile pic">
+            </div>
+            <input type="submit">
+        </form>
+    </body>
+</html>

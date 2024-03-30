@@ -1,0 +1,43 @@
+img{
+    float: none;
+    height: auto;
+    
+}
+
+p{
+    font-family: 'roboto',sans-serif;
+    width: 85px;
+    left: 0;
+    text-align: center;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p:hover{
+    color: white;
+    background-color: black;
+}
+
+a{
+    font-family: 'roboto',sans-serif;
+    width: fit-content;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-left: 4px;
+}
+a.hover{
+    color: red;
+    background-color: black;
+
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table tags</title>
+        <style>
+            table,th,td{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body>
+       <table>
+        <thead>
+            <tr><i>Temp Reading</i></tr>
+            <tr>
+               <th>Day</th>
+               <th>Today</th>
+               <th>Tomorrow</th>
+               <th>Tuesday</th>
+            </tr>
+        </thead>
+        <tr>
+            <th>Condition</th>
+            <td style="background-color: yellow;">Sun</td>
+            <td style="background-color: rgb(21, 178, 230);">Rain</td>
+            <td style="background-color: gray;">Cloud</td>
+        </tr>
+        <tr>
+            <th>Temperature</th>
+            <td style="background-color: yellow;">25 &deg;C</td>
+            <td style="background-color: rgb(21, 178, 230);">35 &deg;C</td>
+            <td style="background-color: grey;">39 &deg;C</td>
+        </tr>
+       </table>
+       <br>
+       <br>
+       <hr>
+       <br>
+       <br>
+       <table>
+        <tr>Service</tr>
+        <tr>
+            <th></th>
+            <th>Basic Support</th>
+            <th>Premium Support</th>
+        </tr>
+        <tr>
+            <th>Setup</th>
+            <td rowspan="2" style="background-color: yellow;">Free</td>
+            <td style="background-color:  rgb(55, 255, 0);;">$499</td>
+        </tr>
+        <tr>
+            <td>First Year</td>
+            <td style="background-color:red">&#8377 5999</td>
+        </tr>
+        <tr>
+            <td>Second Year</td>
+            <td style="background-color: lightgoldenrodyellow;">$3999</td>
+            <td style="background-color: lightgoldenrodyellow;">$3999</td>
+        </tr>
+       </table>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <table>
+            <thead>
+                <tr><i>Budget Portfolio : </i></tr>
+                <tr>
+                    <th></th>
+                    <th colspan="2">Rakesh</th>
+                    <th colspan="2">Megha</th>
+                </tr>
+                <tr >
+                    <th scope="col">Date</th>
+                    <th>Income</th>
+                    <th>Expense</th>
+                    <th>Income</th>
+                    <th>Expense</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>7/11/23</th>
+                    <td>$1000</td>
+                    <td>$859</td>
+                    <td>$1984</td>
+                    <td>1736</td>
+                </tr>
+                <tr>
+                    <th>08/11/2023</th>
+                    <td>$1500</td>
+                    <td>$759</td>
+                    <td>$2584</td>
+                    <td>1986</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Balance</th>
+                    <td style="background-color: greenyellow;"  colspan="2" >&#8377 2500</td>
+                    <td style="background-color: rgb(237, 57, 57);" colspan="2" >&#8377 5030</td>
+                </tr>
+            </tfoot>
+        </table>
+        <br>
+        <br>
+        <hr>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Event Handling JS
+        </title>
+        <link rel="stylesheet" href="Vendor/Bootstrap/css/bootstrap.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width device-width initial-scale=1">
+    </head>
+    <body>
+        <p><a href="Javascript.html" style="text-decoration: none;">Go Back</a></p>
+        <input type="text" id="mytextbox">
+        <div id="output"></div>
+        <script>
+            const element=document.getElementById('mytextbox');
+            var value='';
+            element.addEventListener('change',(event)=>{
+                value=event.target.value
+                document.getElementById('output').innerHTML=value
+            })
+        </script>
+    </body>
+</html>

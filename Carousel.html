@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Carousel
+        </title>
+        <link rel="stylesheet" href="Vendor/Bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    </head>
+    <body>
+        <p><a href="Bootstrap.html" style="text-decoration: none;">Go Back</a></p>
+        <div id="paralaxCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#paralaxCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#paralaxCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#paralaxCarousel" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="Carousel 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="Carousel 2">
+                </div>
+                <div class="carousel-item ">
+                    <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="Carousel 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#paralaxCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#paralaxCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <script src="Vendor/Bootstrap/js/bootstrap.js"></script>
+    </body>
+</html>

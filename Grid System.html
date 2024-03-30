@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid system</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="device=device-width">
+        <link rel="stylesheet" href="Vendor/Bootstrap/css/bootstrap.css">
+        <style>
+            .row{
+                height: 5em;
+                border: 1px solid;
+                margin: 10px 0;
+                background-color: greenyellow;
+            }
+            .container>.row>div:nth-child(1){
+                background-color: white;
+            }
+            .container>.row>div:nth-child(2){
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <p><a href="Bootstrap.html" style="text-decoration: none;">Go Back</a></p>
+        <div class="container" style="border: 1px solid black;">
+            <div class="row">
+                <div class="col-md-6 col-sm-4" style="border: 1px solid black;">
+                    column 1
+                </div>
+                <div class="col-md-4 col-sm-4" style="border: 1px solid black;">
+                    column 2
+                </div>
+                <div class="col-md-2 col-sm-4" style="background-color: red;" style="border: 1px solid black;"> 
+                    column 3
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container-fluid" style="border: 1px solid black;">
+            <div class="row">
+                <div class="col-4" style="border: 1px solid black;">
+                    container-fluid column 1
+                </div>
+                <div class="col-4" style="border: 1px solid black;">
+                    container-fluid column 2
+                </div>
+                <div class="col-4" style="border: 1px solid black;"> 
+                    container-fluid column 3
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container-fluid" style="border: 1px solid black;">
+            <div class="row align-items-end" style="height: 100px;">
+                <div class="col-4" style="border-left: 1px solid black;">
+                    container-fluid column 1
+                </div>
+                <div class="col-4" style="border: 1px solid black;">
+                    container-fluid column 2
+                </div>
+                <div class="col-4" style="border: 1px solid black;"> 
+                    container-fluid column 3
+                </div>
+            </div>
+        </div>
+        <script src="Vendor/Bootstrap/js/bootstrap.js"></script>
+    </body>
+</html>
